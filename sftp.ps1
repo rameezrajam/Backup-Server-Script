@@ -8,9 +8,9 @@ try
     # Setup session options
     $sessionOptions = New-Object WinSCP.SessionOptions -Property @{
         Protocol = [WinSCP.Protocol]::Sftp # Port 22 Sftp | FTP Port: 21
-        HostName = "mhlfstoragesftp.blob.core.windows.net" #IP TO FTP/SFTP
-        UserName = "mhlfstoragesftp.metropolisftp" #USERNAME
-        Password = "IQXWy65F9rzW/OvyhkEz2mEEsJXSTyBw"  #PASSWORD LEAVE EMPTY IF YOU USE PRIVATE KEY LIKE THIS( Password = "" )
+        HostName = "hostnameftp.blob.core.windows.net" #IP TO FTP/SFTP
+        UserName = "usernameftp.usernameftp" #USERNAME
+        Password = "IQXWy65F9rzW/OvyhkEz125ssaff1d2f12dsds"  #PASSWORD LEAVE EMPTY IF YOU USE PRIVATE KEY LIKE THIS( Password = "" )
         SshHostKeyFingerprint = "ecdsa-sha2-nistp256 256 zBKGtf770MPVvxgqLl/4pJinGPJDlvh/mM963AwH6rs"
         #SshPrivateKeyPath= "C:\Users\Administrator\private.ppk" #If you youse password make "SshPrivateKeyPath" to a comment or delete the line!
     }
